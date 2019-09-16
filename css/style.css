@@ -48,3 +48,66 @@ ul li a:hover + ul, ul li ul:hover {
 	height: 60px;
 	width: 900px;
 }
+section h1{
+	font-family: sans-serif;
+	font-size: 40px;
+	text-align:center;
+}
+section p{
+	font-family: sans-serif;
+	font-size: 30px;
+}
+.boton{
+	background-repeat: no-repeat;
+	background-size: 30px 30px;
+	width: 40px;
+	height: 40px;
+}
+#cuento{
+	background-image: url('../imagen/bgGREGAScafe.jpg');
+}
+#taza{
+	background-image: url('../imagen/01tazab.png');
+}
+#florero{
+	background-image: url('../imagen/05florerob.png');	
+}
+#casa{
+	background-image: url('../imagen/02casab.png');
+}
+#mesa{
+	background-image: url('../imagen/03mesab.png');
+}
+#vitrina{
+	background-image: url('../imagen/04vitrinab.png');
+}
+#avion{
+	background-image: url('../imagen/07avionb.png');
+}
+#tren{
+	background-image: url('../imagen/08trenb.png');
+}
+#barco{
+	background-image: url('../imagen/09barcob.png');
+}
+#rosas{
+	background-image: url('../imagen/10rosasb.png');
+}
+#claveles{
+	background-image: url('../imagen/11clavelesB.png');
+}
+#platos{
+	background-image: url('../imagen/12platosb.png');
+}
+#vasos{
+	background-image: url('../imagen/12vasosb.png');
+}
+#tazas{
+	background-image: url('../imagen/13tazasb.png');
+}
+#papas{
+	background-image: url('../imagen/14papasb.png');
+}
+#lechugas{
+	background-image: url('../imagen/15lechugasb.png');
+}
