@@ -32,12 +32,10 @@ ul li a:hover + ul, ul li ul:hover {
 	background-image: url("../imagen/trazo.png");
 	background-repeat: no-repeat;
 	height: 5px;
-	width: 900px;
 }
 #cabecera{
 	background-image: url('../imagen/bgMIXcafe.jpg');
 	height: 40px;
-	width: 900px;
 	text-align: center;
 	font-family: sans-serif;
 	font-size: 30px;
@@ -46,7 +44,6 @@ ul li a:hover + ul, ul li ul:hover {
 	text-align: right;
 	background-image: url('../imagen/bgMIXcafe.jpg');
 	height: 60px;
-	width: 900px;
 }
 section h1{
 	font-family: sans-serif;
