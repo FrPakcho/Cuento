@@ -1,0 +1,50 @@
+body{
+	background-image: url('../imagen/bgGREGASmorado.jpg');
+}
+nav {
+	display: flex;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+a {
+	display: block;
+	padding: 2em;
+	background-image: url('../imagen/bgMIXcalipso.jpg');
+	background-repeat: no-repeat;
+	text-decoration: none;
+	color: #191C26;
+	font-family: sans-serif;
+	font-size: 20px;
+}
+a:hover {
+	background-image: url('../imagen/bgMIXcafe.jpg');
+	background-repeat: no-repeat;
+}
+ul li ul {
+	display: none;
+}
+ul li a:hover + ul, ul li ul:hover {
+	display: block;
+}
+#separador{
+	background: #ffff;
+	background-image: url("../imagen/trazo.png");
+	background-repeat: no-repeat;
+	height: 5px;
+	width: 900px;
+}
+#cabecera{
+	background-image: url('../imagen/bgMIXcafe.jpg');
+	height: 40px;
+	width: 900px;
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 30px;
+}
+#piePagina{
+	text-align: right;
+	background-image: url('../imagen/bgMIXcafe.jpg');
+	height: 60px;
+	width: 900px;
+}
