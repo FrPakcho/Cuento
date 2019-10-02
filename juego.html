@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8" />
+	<title>El Chaski Sigue Corriendo</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<script type="text/javascript" src="js/modernizr.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/estiloJuego.css" />
+	<script type="text/javascript" src="js/juego.js"></script>
+</head>
+<body onload="comprobarnavegador();">
+	<header>
+		<h1> La Taza y el Florero </h1>
+	</header>
+	
+	<section id="contenedorPuzzle">
+
+		<p>DEBES ARRASTRAR LA IMAGEN A LA PALABRA QUE LE CORRESPONDE</p>
+		<div class="container col-12">
+			<div class="row">
+				<div class="col">
+					<div id="contenedorPiezas" ondragenter="return enter(event)" ondragover="return over(event)" ondrop="return drop(event)">
+						<img id="pieza1" title="TAZA" src="imagen/juego/01tazab.png" alt="pieza1" draggable="true" ondragstart="start(event)" ondragend="end(event)">
+						<img id="pieza2" title="CASA" src="imagen/juego/02casab.png" alt="pieza2" draggable="true" ondragstart="start(event)" ondragend="end(event)">
+						<img id="pieza3" title="MESA" src="imagen/juego/03mesab.png" alt="pieza3" draggable="true" ondragstart="start(event)" ondragend="end(event)">
+						<img id="pieza4" title="VITRINA" src="imagen/juego/04vitrinab.png" alt="pieza4" draggable="true" ondragstart="start(event)" ondragend="end(event)">
+					</div>
+				</div>
+				<div class="col">
+					<div id="puzzle" >
+						<div class="contenedorPieza" id="uno" text="js/juego.js" ondragenter="return enter(event)" ondragover="return over(event)" ondrop="return drop(event)"></div>
+						<div class="contenedorPieza" id="dos" ondragenter="return enter(event)" ondragover="return over(event)" ondrop="return drop(event)"></div>
+						<div class="contenedorPieza" id="tres" ondragenter="return enter(event)" ondragover="return over(event)" ondrop="return drop(event)"></div>
+						<div class="contenedorPieza" id="cuatro" ondragenter="return enter(event)" ondragover="return over(event)" ondrop="return drop(event)"></div>
+					</div>
+				</div>
+			</div>
+		</div>	
+	</section>
+
+	<footer>
+		<p>Universidad Mayor de San Sim&oacute;n<br>F&eacute;lix Roberto Pacam&iacute;a Piluy<br>Juan Jos&eacute; S&aacute;nchez Choquecallata</p>
+	</footer>
+	<script type="js/jquery-3.4.1.js"></script>
+	<script type="js/popper.min.js"></script>
+	<script type="js/bootstrap.min.js"></script>
+</body>
+</html>

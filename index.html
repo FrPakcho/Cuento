@@ -4,16 +4,26 @@
 	<title>El Chasky sique Corriendo</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<script src="js/mijs.js"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </head>
 <body>
 	<header id="cabecera">El Chasky Sique Corriendo</header>
-	<nav id="menus">
-		<li><a href="">INICIO</a></li>
-		<li><a href="">CUENTOS</a></li>
-		<li><a href="">JUEGOS</a></li>
+	<nav class="navbar navbar-expand-lg">
+		<div class="collapse navbar-collapse" id="navbarNavDropdown">
+			<ul class="navbar-nav">
+				<li class="nav-item active">
+					<a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Cuento</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="juego.html">Juego</a>
+				</li>
+			</ul>
+		</div>
 	</nav>
-	<div id="separador"></div>
 	<div class="opciones">
 		<div id="sonidoOn"></div>
 		<div id="sonidoOff"></div>
@@ -21,18 +31,21 @@
 	<div id="contenedor">
 		<div id="cuento">
 			<section>
-				<h1>La <button class="boton" id="taza"></button> y El <button class="boton" id="florero"></button></h1>
-				<p>Habia una vez una <button class="boton" id="taza"></button> blanca y redonda que vivia en una <button class="boton" id="casa"></button> humilde. Era muy vieja, habia pasado muchos años entre la <button class="boton" id="mesa"></button> y la <button class="boton" id="vitrina"></button>. Un día llegó al comedor un <button class="boton" id="florero"></button> farsante. Dijo que había viajado por todo el mundo en <button class="boton" id="avion"></button>, en <button class="boton" id="tren"></button> y en <button class="boton" id="barco"></button>.<br>
-				Era amigo de las <button class="boton" id="rosas"></button> y los lirios, y en especial de los <button class="boton" id="claveles"></button> y las azucenas.
-				Los <button class="boton" id="platos"></button>, los <button class="boton" id="vasos"></button> y las <button class="boton" id="tazas"></button> se pusieron muy celosos. Querían también viajar en <button class="boton" id="avion"></button>, en <button class="boton" id="tren"></button> y en <button class="boton" id="barco"></button>. Querían <button class="boton" id="rosas"></button> y azucenas y no <button class="boton" id="papas"></button> ni <button class="boton" id="lechugas"></button>, ni agua sin flores. Sólo la <button class="boton" id="taza"></button> vieja parecía tranquila y no abría la boca. ¿Saben por qué? Ya hacía tiempo que había perdido su oreja y no podía escuchar las farsas del <button class="boton" id="florero"></button> ni saber de los celos de sus compañeros de <button class="boton" id="vitrina"></button>.</p>
+				<h1>La <span id="taza0"><button class="boton" id="taza0"></button></span> y El <span id="florero0"><button class="boton" id="florero0"></button></span></h1>
+				<p>Habia una vez una <span id="taza1"><button class="boton" id="taza1"></button></span> blanca y redonda que vivia en una <span id="casa0"><button class="boton" id="casa0"></button></span> humilde. Era muy vieja, habia pasado muchos años entre la <span id="mesa0"><button class="boton" id="mesa0"></button></span> y la <span id="vitrina0"><button class="boton" id="vitrina0"></button></span>. Un día llegó al comedor un <span id="florero1"><button class="boton" id="florero1"></button></span> farsante. Dijo que había viajado por todo el <span id="planeta0"><button class="boton" id="planeta0"></button></span> en <span id="avion0"><button class="boton" id="avion0"></button></span>, en <span id="tren0"><button class="boton" id="tren0"></button></span> y en <span id="barco0"><button class="boton" id="barco0"></button></span>.
+				<br><br>
+				Era amigo de las <span id="rosas0"><button class="boton" id="rosas0"></button></span> y los lirios, y en especial de los <span id="claveles0"><button class="boton" id="claveles0"></button></span> y las azucenas.
+				Los <span id="platos0"><button class="boton" id="platos0"></button></span>, los <span id="vasos0"><button class="boton" id="vasos0"></button></span> y las <span id="tazas0"><button class="boton" id="tazas0"></button></span> se pusieron muy celosos. Querían también viajar en <span id="avion1"><button class="boton" id="avion1"></button></span>, en <span id="tren1"><button class="boton" id="tren1"></button></span> y en <span id="barco1"><button class="boton" id="barco1"></button></span>. Querían <span id="rosas1"><button class="boton" id="rosas1"></button></span> y azucenas y no <span id="papas0"><button class="boton" id="papas0"></button></span> ni <span id="lechugas0"><button class="boton" id="lechugas0"></button></span>, ni agua sin flores. Sólo la <span id="taza2"><button class="boton" id="taza2"></button></span> vieja parecía tranquila y no abría la boca. ¿Saben por qué? Ya hacía tiempo que había perdido su oreja y no podía escuchar las farsas del <span id="florero2"><button class="boton" id="florero2"></button></span> ni saber de los celos de sus compañeros de <span id="vitrina1"><button class="boton" id="vitrina1"></button></span>.</p>
 			</section>
 		</div>
 		<div id="atras"></div>
 		<div id="adelante"></div>
 	</div>
-	<div id="separador"></div>
 	<footer id="piePagina">
-		<p>Universidad Mayor de San Simon<br>Juan jose sanchez Choquecallata<br>....</p>
+		<p>Desarrolladores: Juan jose sanchez Choquecallata, Roberto Pacamia Piluy (UMSS)</p>
 	</footer>
+	<script src="js/mijs.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 </body>
 </html>

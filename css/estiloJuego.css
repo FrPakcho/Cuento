@@ -1,0 +1,87 @@
+body {
+	background: url(../imagen/fondo/bgGREGASmorado.jpg);
+}
+
+section {
+	margin: auto;
+	width: 80%;
+}
+
+h1 {
+	color:#e7931a;
+	font-size: 40pt;
+	text-align: center;
+}
+
+h2 {
+	text-decoration: underline;
+	text-shadow: 0px 0px 1px #d0eb6a;
+}
+
+h2, h3{
+	color: #e7931a;
+	text-align: center;
+}
+
+p{
+	color:#e7931a;
+	/*font-size: 16pt;*/
+	text-align: center;
+}
+
+footer, header{
+	background: rgba(20,20,20,0.8);
+	box-shadow: 0px 0px 10px  2px #777;
+	/*text-align: center;*/
+	color: #f28516;
+	padding: 10px 50px;
+	width: 80%;
+	height: 100%;
+	border-radius: 10px;
+	margin: 20px auto;
+	overflow: hidden;
+}
+
+/* Contenedor del puzzle*/
+#contenedorPuzzle {
+	margin: 20px auto;
+	width: 70%;
+	background: rgba(20,20,20,0.8);
+	box-shadow: 0px 0px 5px  1px #777;
+	color: #ccc;
+	padding: 10px 50px 50px 50px;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+/* Puzzle */
+#contenedorPiezas{
+	background: #e7931a;
+	width: 300px;
+	height: 300px;
+	float: left;
+	margin-left: 20px;
+	box-shadow: 0px 0px 5px  1px #d0eb6a;
+}
+
+#puzzle {
+	background-image: url(../imagen/juego/puzzle.png);
+	margin:5px auto;
+	width: 300px;
+	height: 300px;
+	float: right;
+	margin-right: 20px;
+	box-shadow: 0px 0px 5px  1px #e7931a;
+}
+.contenedorPieza {
+	width: 150px;
+	height: 150px;
+	float: left;
+}
+
+#contenedorPuzzle img {
+	float: left;
+	padding: 1px;
+	width: 148px;
+	height: 148px;
+}

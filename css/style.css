@@ -6,11 +6,10 @@ nav {
 	padding: 0;
 	margin: 0;
 	list-style: none;
+	background-image: url('../imagen/bgMIXcalipso.jpg');
 }
 a {
 	display: block;
-	padding: 2em;
-	background-image: url('../imagen/bgMIXcalipso.jpg');
 	background-repeat: no-repeat;
 	text-decoration: none;
 	color: #191C26;
@@ -27,12 +26,6 @@ ul li ul {
 ul li a:hover + ul, ul li ul:hover {
 	display: block;
 }
-#separador{
-	background: #ffff;
-	background-image: url("../imagen/trazo.png");
-	background-repeat: no-repeat;
-	height: 5px;
-}
 #cabecera{
 	background-image: url('../imagen/bgMIXcafe.jpg');
 	height: 40px;
@@ -41,70 +34,74 @@ ul li a:hover + ul, ul li ul:hover {
 	font-size: 30px;
 }
 #piePagina{
-	text-align: right;
+	text-align: center;
 	background-image: url('../imagen/bgMIXcafe.jpg');
-	height: 60px;
+	height: 25px;
 }
 section h1{
 	font-family: sans-serif;
-	font-size: 40px;
+	font-size: 60px;
 	text-align:center;
 }
 section p{
 	font-family: sans-serif;
-	font-size: 30px;
+	font-size: 40px;
 }
 .boton{
+	background-color: transparent !important;
 	background-repeat: no-repeat;
-	background-size: 30px 30px;
-	width: 40px;
-	height: 40px;
+	background-size: 45px 45px;
+	width: 50px;
+	height: 50px;
 }
 #cuento{
 	background-image: url('../imagen/bgGREGAScafe.jpg');
 }
-#taza{
+span #taza0,span #taza1,span #taza2{
 	background-image: url('../imagen/01tazab.png');
 }
-#florero{
+span #florero0,span #florero1,span #florero2{
 	background-image: url('../imagen/05florerob.png');	
 }
-#casa{
+span #casa0{
 	background-image: url('../imagen/02casab.png');
 }
-#mesa{
+span #mesa0{
 	background-image: url('../imagen/03mesab.png');
 }
-#vitrina{
+span #vitrina0,span #vitrina1{
 	background-image: url('../imagen/04vitrinab.png');
 }
-#avion{
+span #avion0,span #avion1{
 	background-image: url('../imagen/07avionb.png');
 }
-#tren{
+span #tren0,span #tren1{
 	background-image: url('../imagen/08trenb.png');
 }
-#barco{
+span #barco0,span #barco1{
 	background-image: url('../imagen/09barcob.png');
 }
-#rosas{
+span #rosas0,span #rosas1{
 	background-image: url('../imagen/10rosasb.png');
 }
-#claveles{
+span #claveles0{
 	background-image: url('../imagen/11clavelesB.png');
 }
-#platos{
+span #platos0{
 	background-image: url('../imagen/12platosb.png');
 }
-#vasos{
+span #vasos0{
 	background-image: url('../imagen/12vasosb.png');
 }
-#tazas{
+span #tazas0{
 	background-image: url('../imagen/13tazasb.png');
 }
-#papas{
+span #papas0{
 	background-image: url('../imagen/14papasb.png');
 }
-#lechugas{
+span #lechugas0{
 	background-image: url('../imagen/15lechugasb.png');
+}
+span #planeta0{
+	background-image: url('../imagen/06planetab.png');	
 }
