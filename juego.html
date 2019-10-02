@@ -16,18 +16,23 @@
 	
 	<section id="contenedorPuzzle">
 
-		<p>DEBES ARRASTRAR LA IMAGEN A LA PALABRA QUE LE CORRESPONDE</p>
+		<p><span>DEBES ARRASTRAR LA IMAGEN A LA PALABRA QUE LE CORRESPONDE</span></p>
 		<div class="container col-12">
 			<div class="row">
-				<div class="col">
+				<div class="col-5">
 					<div id="contenedorPiezas" ondragenter="return enter(event)" ondragover="return over(event)" ondrop="return drop(event)">
-						<img id="pieza1" title="TAZA" src="imagen/juego/01tazab.png" alt="pieza1" draggable="true" ondragstart="start(event)" ondragend="end(event)">
-						<img id="pieza2" title="CASA" src="imagen/juego/02casab.png" alt="pieza2" draggable="true" ondragstart="start(event)" ondragend="end(event)">
-						<img id="pieza3" title="MESA" src="imagen/juego/03mesab.png" alt="pieza3" draggable="true" ondragstart="start(event)" ondragend="end(event)">
-						<img id="pieza4" title="VITRINA" src="imagen/juego/04vitrinab.png" alt="pieza4" draggable="true" ondragstart="start(event)" ondragend="end(event)">
+						<img id="pieza1" src="imagen/juego/01tazab.png" alt="pieza1" draggable="true" ondragstart="start(event)" ondragend="end(event)">
+						<img id="pieza2" src="imagen/juego/02casab.png" alt="pieza2" draggable="true" ondragstart="start(event)" ondragend="end(event)">
+						<img id="pieza3" src="imagen/juego/03mesab.png" alt="pieza3" draggable="true" ondragstart="start(event)" ondragend="end(event)">
+						<img id="pieza4" src="imagen/juego/04vitrinab.png" alt="pieza4" draggable="true" ondragstart="start(event)" ondragend="end(event)">
 					</div>
 				</div>
-				<div class="col">
+				<div class="col-2">
+					<div id="calificar">
+						<img id="calificacion" src="imagen/juego/pregunta.gif">
+					</div>
+				</div>
+				<div class="col-5">
 					<div id="puzzle" >
 						<div class="contenedorPieza" id="uno" text="js/juego.js" ondragenter="return enter(event)" ondragover="return over(event)" ondrop="return drop(event)"></div>
 						<div class="contenedorPieza" id="dos" ondragenter="return enter(event)" ondragover="return over(event)" ondrop="return drop(event)"></div>
